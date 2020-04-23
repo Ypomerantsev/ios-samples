@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,6 +13,25 @@
                 <outlet property="btnHelloUniverse" destination="9" id="11"/>
                 <outlet property="btnHelloWorld" destination="8" id="10"/>
                 <outlet property="view" destination="1" id="7"/>
+                <outlet property="Num1" destination="149" id="name-outlet-149"/>
+                <outlet property="Num2" destination="206" id="name-outlet-206"/>
+                <outlet property="Num3" destination="223" id="name-outlet-223"/>
+                <outlet property="Num4" destination="198" id="name-outlet-198"/>
+                <outlet property="Num5" destination="211" id="name-outlet-211"/>
+                <outlet property="Num6" destination="227" id="name-outlet-227"/>
+                <outlet property="Num7" destination="202" id="name-outlet-202"/>
+                <outlet property="Num8" destination="215" id="name-outlet-215"/>
+                <outlet property="Num9" destination="231" id="name-outlet-231"/>
+                <outlet property="Num0" destination="219" id="name-outlet-219"/>
+                <outlet property="btnAdd" destination="239" id="name-outlet-239"/>
+                <outlet property="btnDeduct" destination="243" id="name-outlet-243"/>
+                <outlet property="btnMultiply" destination="247" id="name-outlet-247"/>
+                <outlet property="btnDivide" destination="291" id="name-outlet-291"/>
+                <outlet property="Pointer" destination="235" id="name-outlet-235"/>
+                <outlet property="Negate" destination="307" id="name-outlet-307"/>
+                <outlet property="btnResult" destination="317" id="name-outlet-317"/>
+                <outlet property="txtNumber" destination="611" id="name-outlet-611"/>
+                <outlet property="btnReset" destination="2491" id="name-outlet-2491"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -21,7 +40,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8">
-                    <rect key="frame" x="20" y="79" width="280" height="37"/>
+                    <rect key="frame" x="24" y="25" width="280" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
                     <state key="normal" title="Hello, World Screen">
@@ -29,21 +48,257 @@
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9">
-                    <rect key="frame" x="20" y="129" width="280" height="37"/>
+                    <rect key="frame" x="19" y="70" width="280" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
                     <state key="normal" title="Hello, Universe Screen">
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="149">
+                    <rect key="frame" x="44" y="225" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="Num1_TouchUpInside:" destination="-1" id="621" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="1" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleShadowColor" systemColor="linkColor" colorSpace="calibratedRGB" red="0" green="0.47843137254902" blue="1" alpha="1"/>
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="198">
+                    <rect key="frame" x="44" y="275" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="200" id="199" eventType="touchUpInside"/>
+                        <action selector="Num4_TouchUpInside:" destination="-1" id="803" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="4">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="202">
+                    <rect key="frame" x="44" y="325" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="204" id="203" eventType="touchUpInside"/>
+                        <action selector="Num7_TouchUpInside:" destination="-1" id="2425" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="7" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="206">
+                    <rect key="frame" x="121" y="225" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="208" id="207" eventType="touchUpInside"/>
+                        <action selector="Num2_TouchUpInside:" destination="-1" id="797" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="2">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="211">
+                    <rect key="frame" x="121" y="275" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="213" id="212" eventType="touchUpInside"/>
+                        <action selector="Num5_TouchUpInside:" destination="-1" id="2421" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="5" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="215">
+                    <rect key="frame" x="121" y="325" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="217" id="216" eventType="touchUpInside"/>
+                        <action selector="Num8_TouchUpInside:" destination="-1" id="2427" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="8">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="219">
+                    <rect key="frame" x="121" y="375" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="221" id="220" eventType="touchUpInside"/>
+                        <action selector="Num0_TouchUpInside:" destination="-1" id="2431" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="0" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="223">
+                    <rect key="frame" x="187" y="225" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="225" id="224" eventType="touchUpInside"/>
+                        <action selector="Num3_TouchUpInside:" destination="-1" id="799" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="3" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="227">
+                    <rect key="frame" x="187" y="275" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="229" id="228" eventType="touchUpInside"/>
+                        <action selector="Num6_TouchUpInside:" destination="-1" id="2423" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="6">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="231">
+                    <rect key="frame" x="187" y="325" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="233" id="232" eventType="touchUpInside"/>
+                        <action selector="Num9_TouchUpInside:" destination="-1" id="2429" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="9" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="235">
+                    <rect key="frame" x="187" y="375" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="237" id="236" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title=".">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="239">
+                    <rect key="frame" x="253" y="225" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="241" id="240" eventType="touchUpInside"/>
+                        <action selector="BtnAdd_TouchUpInside:" destination="-1" id="986" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="+">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="243">
+                    <rect key="frame" x="253" y="275" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="245" id="244" eventType="touchUpInside"/>
+                        <action selector="BtnDeduct_TouchUpInside:" destination="-1" id="988" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                    <state key="normal" title="-" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="247">
+                    <rect key="frame" x="253" y="325" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="249" id="248" eventType="touchUpInside"/>
+                        <action selector="BtnMultiply_TouchUpInside:" destination="-1" id="990" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="x">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="291">
+                    <rect key="frame" x="253" y="375" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="293" id="292" eventType="touchUpInside"/>
+                        <action selector="BtnDivide_TouchUpInside:" destination="-1" id="992" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="/" backgroundImage="Default.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="307">
+                    <rect key="frame" x="44" y="375" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="309" id="308" eventType="touchUpInside"/>
+                        <action selector="Negate_TouchUpInside:" destination="-1" id="2433" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="+/-">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="317">
+                    <rect key="frame" x="253" y="421" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="319" id="318" eventType="touchUpInside"/>
+                        <action selector="BtnResult_TouchUpInside:" destination="-1" id="984" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="=">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="18" id="611" enabled="NO">
+                    <rect key="frame" x="14" y="115" width="290" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2491">
+                    <rect key="frame" x="92" y="174" width="104" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="UIButton149_TouchUpInside:" destination="2493" id="2492" eventType="touchUpInside"/>
+                        <action selector="Num2_TouchUpInside:" destination="2495" id="2494" eventType="touchUpInside"/>
+                        <action selector="BtnReset_TouchUpInside:" destination="-1" id="2514" eventType="touchUpInside"/>
+                    </connections>
+                    <fontDescription key="fontDescription" type="system" pointSize="17" weight="black"/>
+                    <state key="normal" title="Reset" backgroundImage="Default-Landscape.png">
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="9" y="-60"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+        <simulatedScreenMetrics key="destination" type="retina5_9.fullscreen"/>
     </simulatedMetricsContainer>
+    <resources>
+        <image name="Default-Landscape.png" width="1024" height="748"/>
+        <image name="Default.png" width="320" height="480"/>
+    </resources>
 </document>
